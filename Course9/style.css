@@ -1,0 +1,10 @@
+/* # means id */
+/* dot(.) means class */
+
+.red{
+    background-color: red;
+}
+
+#seconddiv{
+    background-color: rgb(170, 154, 134);
+}
