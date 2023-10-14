@@ -1,0 +1,46 @@
+/* Element Selector */
+div{
+    background-color: red;
+}
+
+/* Class Selector .grey means  I am accessing the second div with the class */
+.grey{
+    background-color: grey;
+}
+
+/* ID Selector */
+#green{
+    background-color: green;
+    color: white;
+}
+
+/* Child Selector */
+div > p{
+    color: white;
+    background-color: brown;
+}
+
+/* Descendent Selector */
+div p{
+    color: white;
+    background-color: brown;
+}
+
+ /* Universal Selector */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Pseudo Selector */
+a:visited{
+    color: red;
+}
+
+a:active{
+    color: white;
+}
+
+a:hover{
+    background-color: turquoise;
+}
